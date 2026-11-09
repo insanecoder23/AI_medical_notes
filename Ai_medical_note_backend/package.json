@@ -1,0 +1,21 @@
+{
+  "name": "medical-ai-backend",
+  "version": "1.0.0",
+  "description": "Speech-to-text and medical documentation assistant backend",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemo server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.0",
+    "multer": "^2.0.2",
+    "openai": "^5.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
